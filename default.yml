@@ -21,7 +21,7 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: Kitzy
+    org_name: CHOAM
 
   server_settings:
     ###########################################################
@@ -136,3 +136,15 @@ controls:
 ###########################################################
 labels:
   - paths: ./labels/*.yml
+
+fleet_desktop:
+  transparency_url: https://catopftheday.com
+
+host_expiry_settings:
+  host_expiry_enabled: true
+  host_expiry_window: 30
+
+webhook_settings:
+  activites_webhook:
+    enable_activities_webhook: true
+    destination_url: https://webhook.site/2983e1fc-33ad-47a4-9204-6f26235ca5bf
