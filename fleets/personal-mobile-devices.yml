@@ -107,3 +107,8 @@ software:
     #   display_name: "Slack"
     #   self_service: true
     #   setup_experience: true
+labels:
+  - name: C-Suite
+    description: All hosts that belong to C-Suite executives.
+    label_membership_type: manuak
+    hosts:
