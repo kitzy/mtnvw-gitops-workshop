@@ -110,5 +110,5 @@ software:
 labels:
   - name: C-Suite
     description: All hosts that belong to C-Suite executives.
-    label_membership_type: manuak
+    label_membership_type: manual
     hosts:
